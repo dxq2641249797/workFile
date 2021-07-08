@@ -1,0 +1,70 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "vscode-icons",
+    // tab 大小为2个空格
+    "editor.tabSize": 2,
+    // 编辑器换行
+    "editor.wordWrap": "off",
+    // 保存时格式化
+    "editor.formatOnSave": false,
+    // 开启 vscode 文件路径导航
+    "breadcrumbs.enabled": true,
+    // vetur 的自定义设置
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "force-aligned"
+        },
+        "prettier": {
+            "singleQuote": true,
+            "semi": false,
+            "wrapAttributes": false,
+            "sortAttributes": false,
+            //禁止随时添加逗号,这个很重要。找了好久
+            "trailingComma": "none"
+        }
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "editor.detectIndentation": false,
+    "files.autoSave": "off",
+    "git.confirmSync": false,
+    "editor.minimap.enabled": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.autofetch": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur",
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.comments.insertSpace": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "vetur.validation.template": true,
+    "vetur.format.enable": true,
+    "workbench.settings.editor": "json",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "explorer.confirmDelete": false,
+}
