@@ -38,3 +38,4 @@ export function setUpLoadHeaders() {
     Authorization: `${getToken()}`
   })
 }
+console.log('b');
